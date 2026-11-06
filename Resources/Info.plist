@@ -2,28 +2,48 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key><string>en</string>
-	<key>CFBundleExecutable</key><string>WulfeLabeller</string>
-	<key>CFBundleIdentifier</key><string>com.wulfecompany.labeller</string>
-	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
-	<key>CFBundleName</key><string>Wülfe Labeller</string>
-	<key>CFBundleDisplayName</key><string>Wülfe Labeller</string>
-	<key>CFBundlePackageType</key><string>APPL</string>
-	<key>CFBundleShortVersionString</key><string>1.0</string>
-	<key>CFBundleVersion</key><string>1</string>
-	<key>CFBundleIconFile</key><string>AppIcon</string>
-	<key>LSMinimumSystemVersion</key><string>14.0</string>
-	<key>LSApplicationCategoryType</key><string>public.app-category.productivity</string>
-	<key>NSHighResolutionCapable</key><true/>
-	<key>NSHumanReadableCopyright</key><string>© 2026 Wülfe Company</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Wülfe Labeller</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeName</key><string>PDF Document</string>
-			<key>CFBundleTypeRole</key><string>Editor</string>
-			<key>LSHandlerRank</key><string>Alternate</string>
-			<key>LSItemContentTypes</key><array><string>com.adobe.pdf</string></array>
+			<key>CFBundleTypeName</key>
+			<string>PDF Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.adobe.pdf</string>
+			</array>
 		</dict>
 	</array>
+	<key>CFBundleExecutable</key>
+	<string>WulfeLabeller</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wulfecompany.labeller</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Wülfe Labeller</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Wülfe Company</string>
 </dict>
 </plist>
